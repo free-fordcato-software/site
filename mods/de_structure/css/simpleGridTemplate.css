@@ -82,7 +82,6 @@ header {
 }
 .intro .column p {
 	color: #FFFFFF;
-	text-align:center;
 }
 .cards {
 	width: 100%;
@@ -92,7 +91,7 @@ header {
 	opacity: 0.8;
 }
 .intro .column p {
-	text-align: center;
+	text-align: justify;
 	line-height: 25px;
 	font-weight: lighter;
 }
