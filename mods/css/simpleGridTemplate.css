@@ -83,6 +83,7 @@ header {
 .intro .column p {
 	color: #FFFFFF;
 	text-align:center;
+	width:80%;
 }
 .cards {
 	width: 100%;
