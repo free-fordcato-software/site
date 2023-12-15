@@ -6,10 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dead Center Abridged</title>
 <link href="../css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+<link href="../css/slideshow.css" rel="stylesheet" type="text/css">
 <!-- CSS override -->
 <style>
 body {
 	background: url("images/dca_bg.jpg") center center;
+}
+
+header {
+background-color: #F65434;
 }
 
 </style>
@@ -24,8 +29,45 @@ body {
   <!-- Hero Section -->
   <section class="intro">
     <div class="column">
-      <img height="90%" src="../../images/mods/dca.jpg"> </div>
+      <!--SlideShow--> 
+
+		<div class="slidecontainer">
+  <div class="mySlides">
+    <img src="images/screenshots/1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="images/screenshots/2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="images/screenshots/3.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="images/screenshots/4.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="images/screenshots/5.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="images/screenshots/6.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="images/screenshots/7.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="images/screenshots/8.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+<script src="../js/slideshow.js"></script>
+
+  
+</div>
+	  
+	  </div>
     <div class="column">
+	<img height="35%" src="../../images/mods/dca.jpg" style="padding-bottom: 5%">
       <p>Map from the Map Labs competition - "Left 4 Dead 2: Abridged"<br>Rescue some cola and steal a car.</p>
 		<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2317964262" class="btn btn-primary">Download</a>
     </div>
