@@ -6,12 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nomad</title>
 <link href="../css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<meta property="og:title" content="Free Fordcato Software" />
+<link rel="icon" type="image/x-icon" href="/images/fordcato_t.png">
+
+<meta property="og:site_name" content="Free Fordcato Software" />
 <meta property="og:type" content="website" />
-	  <link rel="icon" type="image/x-icon" href="/images/fordcato_t.png">
+
 <meta property="og:url" content="https://freefordcatosoftware.com.ru/mods/nomad/" />
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:image" content="https://freefordcatosoftware.com.ru/images/mods/nomad_background.jpg" />
-<meta property="og:description" content="Nomad" />
+<meta property="twitter:image:src" content="https://freefordcatosoftware.com.ru/images/mods/nomad_background.jpg" />
+
+<meta property="og:title" content="Nomad" />
+<meta property="og:description" content="Map from the 'Beyond The Bar', a Half-Life 2 Beta themed mapping competition built on Coterminus. Based on Wasteland Concept Art." />
 <!-- CSS override -->
 <style>
 body {
@@ -26,9 +32,26 @@ header {
 	color: white;
 }
 
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 </style>
 </head>
 <body>
+
+<video id="background-video" autoplay loop muted poster="https://freefordcatosoftware.com.ru/images/mods/nomad_background.jpg">
+  <source src="video/nomad_thing.mp4" type="video/mp4">
+</video>
+
 <!-- Main Container -->
 <div class="container"> 
   <!-- Header -->
