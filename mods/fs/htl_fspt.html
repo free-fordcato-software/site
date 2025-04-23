@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>How to launch FS playtest</h1>
+<p>Since Valve fucked up HL2DM launching configuration for steam_legacy, this made things worse for FS, because at current point its way harder to launch FS.</p>
+
+<h2>1. Preparing Half-Life 2: Deathmatch</h2>
+<p>Switch to "steam_legacy" branch.</p>
+<p>If you don't have HL2DM installed, its recommended to switch first, then download game.</p>
+<img src="img/steamwebhelper_Mebd8YvtuG.png"><br>
+<img src="img/steamwebhelper_8x3npfIfsX.png">
+
+
+<h2>2. Unpack FS</h2>
+<p>It is still preferably to unpack it in sourcemods folder</p>
+<p>"fsmp" folder should be located at "C:\Program Files (x86)\Steam\steamapps\sourcemods"</p>
+
+<h3>now the fun part!</h3>
+<h2>3. Creating FS shortcut</h2>
+<p>Create a new shortcut wherever you want to launch FS from. It could be your desktop, or some folder, it doesnt matter. (as long as you dont fuck it up)</p>
+<img src="img/explorer_LVDEXn8Ikg.png">
+<p>In the next window like on screenshot below, put where hl2.exe is located from your HL2DM installment.</p>
+<img src="img/explorer_ZuwSEPGckL.png">
+<p>Next, you can put some name for your shortcut. You can name it simply name it "FS".</p>
+<img src="img/explorer_TxGywa8O4U.png">
+<p>Then, save our new shortcut.</p>
+<p>After saving shortcut, right click on it, and press "Properties".</p>
+<img src="img/explorer_xm6rxpUB9u.png">
+<p>In the "target" textbar, you re supposed to put special launch parameters that will make FS launch:</p>
+<p>"hl2dmpath" -game "fspath"
+<p>Where:
+<p>hl2dmpath - is where HL2DM is installed. In my case, its installed at "G:\SteamLibrary\steamapps\common\Half-Life 2 Deathmatch\hl2.exe"</p>
+<p>fspath - is where FS is installed. In my case, its installed at "F:\Projects\FriendlyStunstick_MapBase\game\fsmp"</p>
+<p>In my example, I should put in "target" something like this:</p>
+<p>"G:\SteamLibrary\steamapps\common\Half-Life 2 Deathmatch\hl2.exe" -game "F:\Projects\FriendlyStunstick_MapBase\game\fsmp"</p>
+<p>Try to launch FS from this shortcut.</p>
+</body>
+</html>
